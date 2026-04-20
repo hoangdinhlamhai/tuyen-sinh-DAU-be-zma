@@ -105,7 +105,7 @@ export class CandidateService {
         data: {
           id,
           zaloId,
-          fullName: dto.fullName || null,
+          fullName: dto.fullName || '',
           avatarUrl: dto.avatarUrl || null,
           profileStatus: 'linked',
         },
