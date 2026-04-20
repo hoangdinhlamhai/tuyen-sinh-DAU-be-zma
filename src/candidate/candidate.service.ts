@@ -97,20 +97,29 @@ export class CandidateService {
       where: { zaloId },
     });
 
-    if (!existing) {
-      throw new NotFoundException(
-        `Candidate with zaloId "${zaloId}" not found`,
-      );
-    }
+    let updated: Awaited<ReturnType<typeof this.prisma.candidate.update>>;
 
-    const updated = await this.prisma.candidate.update({
-      where: { id: existing.id },
-      data: {
-        ...(dto.zaloId !== undefined && { zaloId: dto.zaloId }),
-        ...(dto.avatarUrl !== undefined && { avatarUrl: dto.avatarUrl }),
-        ...(dto.fullName !== undefined && { fullName: dto.fullName }),
-      },
-    });
+    if (!existing) {
+      const id = `DAU${new Date().getFullYear()}${randomUUID().slice(0, 6).toUpperCase()}`;
+      updated = await this.prisma.candidate.create({
+        data: {
+          id,
+          zaloId,
+          fullName: dto.fullName || null,
+          avatarUrl: dto.avatarUrl || null,
+          profileStatus: 'linked',
+        },
+      });
+    } else {
+      updated = await this.prisma.candidate.update({
+        where: { id: existing.id },
+        data: {
+          ...(dto.zaloId !== undefined && { zaloId: dto.zaloId }),
+          ...(dto.avatarUrl !== undefined && { avatarUrl: dto.avatarUrl }),
+          ...(dto.fullName !== undefined && { fullName: dto.fullName }),
+        },
+      });
+    }
 
     return updated;
   }
