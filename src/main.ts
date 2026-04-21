@@ -6,12 +6,10 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  const frontendUrl =
-    process.env.FRONTEND_URL || 'https://tuyen-sinh-dh-kien-truc-fe.vercel.app';
   app.use(cookieParser());
   app.setGlobalPrefix('api');
   app.enableCors({
-    origin: frontendUrl,
+    origin: ['https://h5.zadn.vn', 'http://localhost'],
     credentials: true,
   });
   app.useGlobalPipes(
