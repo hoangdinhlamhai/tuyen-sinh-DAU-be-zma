@@ -14,7 +14,12 @@ export class AuthService {
     accessToken: string,
     zaloProfile?: { zaloId: string; name?: string; avatar?: string },
   ) {
+    console.log('[AuthService] loginWithZalo', {
+      accessToken: !!accessToken,
+      zaloProfile,
+    });
     if (!zaloProfile?.zaloId) {
+      console.log('[AuthService] Missing zaloId, throwing 401');
       throw new UnauthorizedException('Zalo profile information is required');
     }
 

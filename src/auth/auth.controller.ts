@@ -1,4 +1,12 @@
-import { Controller, Post, Body, UseGuards, Res, Req } from '@nestjs/common';
+import {
+  Controller,
+  Post,
+  Body,
+  UseGuards,
+  Res,
+  Req,
+  ValidationPipe,
+} from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
 import type { Request, Response } from 'express';
 import { AuthService } from './auth.service';
@@ -10,9 +18,10 @@ export class AuthController {
 
   @Post('zalo')
   loginWithZalo(
-    @Body() dto: ZaloLoginDto,
+    @Body(new ValidationPipe({ whitelist: false })) dto: ZaloLoginDto,
     @Res({ passthrough: true }) res: Response,
   ) {
+    console.log('[Auth] loginWithZalo dto:', JSON.stringify(dto));
     const result = this.authService.loginWithZalo(
       dto.accessToken,
       dto.profile,
