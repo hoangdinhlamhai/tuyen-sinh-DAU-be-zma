@@ -33,7 +33,9 @@ export class AuthController {
       sameSite: 'none',
       maxAge: 7 * 24 * 60 * 60 * 1000,
       path: '/',
+      domain: '.tuyen-sinh-dh-kien-truc-be-zma.vercel.app',
     });
+    console.log('[Auth] Cookie set, token length:', result.accessToken.length);
 
     const { accessToken: _accessToken, ...safeData } = result;
     return safeData;
