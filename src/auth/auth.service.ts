@@ -35,6 +35,15 @@ export class AuthService {
           profileStatus: 'linked',
         },
       });
+    } else {
+      // Cập nhật profile từ Zalo mỗi khi login (name/avatar có thể thay đổi)
+      candidate = await this.prisma.candidate.update({
+        where: { id: candidate.id },
+        data: {
+          fullName: zaloProfile.name || candidate.fullName,
+          avatarUrl: zaloProfile.avatar || candidate.avatarUrl,
+        },
+      });
     }
 
     const payload = {
