@@ -60,21 +60,16 @@ export class TarotService {
     const randomIndex = Math.floor(Math.random() * activeCards.length);
     const selectedCard = activeCards[randomIndex];
 
-    // 4. Tạo sessionToken và playId
+    // 4. Tạo sessionToken
     const sessionToken = randomBytes(32).toString('hex');
-    const lastSession = await this.prisma.tarotSession.findFirst({
-      orderBy: { playId: 'desc' },
-    });
-    const playId = (lastSession?.playId ?? 0) + 1;
 
     // 5. Xác định candidateId (từ JWT user hoặc dto)
     const candidateId = user?.candidateId || dto.candidateId || null;
     const zaloUserId = dto.zaloUserId || user?.zaloId || null;
 
-    // 6. Tạo TarotSession record
+    // 6. Tạo TarotSession record (playId bỏ qua, dùng id auto-increment làm định danh)
     const session = await this.prisma.tarotSession.create({
       data: {
-        playId,
         sessionToken,
         candidateId,
         zaloUserId,
