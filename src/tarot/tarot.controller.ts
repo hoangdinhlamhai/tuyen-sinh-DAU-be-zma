@@ -1,5 +1,5 @@
 import { Body, Controller, Get, Param, Post, Req } from '@nestjs/common';
-import { Request } from 'express';
+import type { Request } from 'express';
 import { TarotService } from './tarot.service';
 import { DrawCardDto } from './dto/draw-card.dto';
 import { ClaimGiftDto } from './dto/claim-gift.dto';
@@ -10,8 +10,23 @@ export class TarotController {
 
   @Post('draw')
   async drawCard(@Body() dto: DrawCardDto, @Req() req: Request) {
-    // Lấy user từ JWT nếu có (sau khi login)
-    const user = (req as any).user;
+    let user = (req as any).user;
+    
+    // Parse JWT thủ công nếu không có Guard
+    const authHeader = req.headers.authorization;
+    if (!user && authHeader && authHeader.startsWith('Bearer ')) {
+      try {
+        const token = authHeader.split(' ')[1];
+        const payloadBase64 = token.split('.')[1];
+        if (payloadBase64) {
+          const decoded = JSON.parse(Buffer.from(payloadBase64, 'base64').toString('utf8'));
+          user = { candidateId: decoded.sub, zaloId: decoded.zaloId };
+        }
+      } catch (e) {
+        // Bỏ qua nếu lỗi parse JWT
+      }
+    }
+
     return await this.tarotService.drawCard(dto, user);
   }
 
@@ -21,10 +36,24 @@ export class TarotController {
     @Body() dto: ClaimGiftDto,
     @Req() req: Request,
   ) {
-    const user = (req as any).user;
+    let user = (req as any).user;
+    
+    // Parse JWT thủ công
+    const authHeader = req.headers.authorization;
+    if (!user && authHeader && authHeader.startsWith('Bearer ')) {
+      try {
+        const token = authHeader.split(' ')[1];
+        const payloadBase64 = token.split('.')[1];
+        if (payloadBase64) {
+          const decoded = JSON.parse(Buffer.from(payloadBase64, 'base64').toString('utf8'));
+          user = { candidateId: decoded.sub, zaloId: decoded.zaloId };
+        }
+      } catch (e) {}
+    }
+
     return await this.tarotService.claimGift(
       Number(sessionId),
-      dto.zaloUserId,
+      dto.zaloUserId || user?.zaloId,
       user,
     );
   }
