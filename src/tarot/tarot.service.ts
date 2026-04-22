@@ -3,8 +3,6 @@ import { PrismaService } from '../prisma/prisma.service';
 import { DrawCardDto } from './dto/draw-card.dto';
 import { randomBytes } from 'crypto';
 
-const DAILY_PLAY_LIMIT = 3;
-
 interface JwtUser {
   candidateId?: string;
   zaloId?: string;
@@ -18,34 +16,7 @@ export class TarotService {
    * Bốc bài Tarot: random 1 lá từ DB, tính trúng quà, lưu session
    */
   async drawCard(dto: DrawCardDto, user?: JwtUser) {
-    // 1. Check daily play limit
-    if (dto.zaloUserId) {
-      const today = new Date();
-      today.setHours(0, 0, 0, 0);
-      const tomorrow = new Date(today);
-      tomorrow.setDate(tomorrow.getDate() + 1);
-
-      const todayDrawCount = await this.prisma.tarotSession.count({
-        where: {
-          zaloUserId: dto.zaloUserId,
-          createdAt: {
-            gte: today,
-            lt: tomorrow,
-          },
-        },
-      });
-
-      if (todayDrawCount >= DAILY_PLAY_LIMIT) {
-        const nextPlayAt = new Date(tomorrow);
-        throw new HttpException(
-          {
-            message: 'Hôm nay bạn đã bốc rồi',
-            nextPlayAt: nextPlayAt.toISOString(),
-          },
-          HttpStatus.TOO_MANY_REQUESTS,
-        );
-      }
-    }
+    // Không giới hạn lượt chơi
 
     // 2. Lấy tất cả lá bài đang active
     const activeCards = await this.prisma.tarotCard.findMany({
