@@ -193,12 +193,18 @@ export class TarotService {
   /**
    * Lịch sử bốc bài theo Zalo User ID
    */
-  async getHistory(zaloUserId: string) {
+  async getHistory(zaloUserId?: string, candidateId?: string) {
+    const conditions: any[] = [];
+    if (zaloUserId) conditions.push({ zaloUserId });
+    if (candidateId) conditions.push({ candidateId });
+
+    if (conditions.length === 0) return [];
+
     return this.prisma.tarotSession.findMany({
-      where: { zaloUserId },
+      where: { OR: conditions },
       include: { card: true },
       orderBy: { createdAt: 'desc' },
-      take: 20,
+      take: 10,
     });
   }
 

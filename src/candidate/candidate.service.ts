@@ -172,4 +172,43 @@ export class CandidateService {
 
     return updated;
   }
+
+  /**
+   * Tạo candidate tối thiểu từ popup Tarot (guest, chưa liên kết Zalo)
+   */
+  async createFromTarot(data: { fullName: string; email?: string; provinceCode?: string; highSchoolCode?: string }) {
+    // Nếu có email, kiểm tra đã tồn tại chưa
+    if (data.email) {
+      const existing = await this.prisma.candidate.findUnique({
+        where: { email: data.email },
+      });
+      if (existing) {
+        // Cập nhật tên nếu chưa có
+        if (!existing.fullName || existing.fullName === 'Zalo User') {
+          await this.prisma.candidate.update({
+            where: { id: existing.id },
+            data: { fullName: data.fullName },
+          });
+        }
+        return { candidateId: existing.id, isNew: false };
+      }
+    }
+
+    const id = `DAU${new Date().getFullYear()}${randomUUID().slice(0, 6).toUpperCase()}`;
+    const placeholderEmail = data.email || `tarot_${id}@placeholder.local`;
+
+    const candidate = await this.prisma.candidate.create({
+      data: {
+        id,
+        email: placeholderEmail,
+        fullName: data.fullName,
+        dob: new Date('2000-01-01'),
+        provinceCode: data.provinceCode || null,
+        highSchoolCode: data.highSchoolCode || null,
+        profileStatus: 'tarot_lead',
+      },
+    });
+
+    return { candidateId: candidate.id, isNew: true };
+  }
 }

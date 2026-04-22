@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, Patch, Post, Req } from '@nestjs/common';
+import { Body, Controller, Get, Param, Patch, Post, Query, Req } from '@nestjs/common';
 import type { Request } from 'express';
 import { TarotService } from './tarot.service';
 import { DrawCardDto } from './dto/draw-card.dto';
@@ -58,9 +58,12 @@ export class TarotController {
     );
   }
 
-  @Get('history/:zaloUserId')
-  getHistory(@Param('zaloUserId') zaloUserId: string) {
-    return this.tarotService.getHistory(zaloUserId);
+  @Get('history')
+  getHistory(
+    @Query('zaloUserId') zaloUserId?: string,
+    @Query('candidateId') candidateId?: string,
+  ) {
+    return this.tarotService.getHistory(zaloUserId, candidateId);
   }
 
   @Patch('session/:sessionId')

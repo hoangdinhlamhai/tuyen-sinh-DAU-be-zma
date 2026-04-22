@@ -74,6 +74,13 @@ export class CandidateController {
     return this.candidateService.updateProfileById(req.user.candidateId, dto);
   }
 
+  @Post('from-tarot')
+  createFromTarot(
+    @Body() body: { fullName: string; email?: string; provinceCode?: string; highSchoolCode?: string },
+  ) {
+    return this.candidateService.createFromTarot(body);
+  }
+
   @Get(':id')
   getById(@Param('id') id: string) {
     return this.candidateService.getById(id);
