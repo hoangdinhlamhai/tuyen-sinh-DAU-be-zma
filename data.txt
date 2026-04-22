@@ -1,0 +1,209 @@
+[
+    {
+        "stt": 1,
+        "tieu_de": "Workshop “Luật Khoa học, Công nghệ và đổi mới sáng tạo với việc phát triển mô hình doanh nghiệp khoa học công nghệ”",
+        "ngay_dang": "22/04/2026",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22568",
+        "link_anh": "http://due.udn.vn:443/bbimagehandler.ashx?File=/Portals/0/Users/125/73/27773/HthaoLuatKHCN202601.jpg&width=120&height=120"
+    },
+    {
+        "stt": 2,
+        "tieu_de": "DUE sẽ tổ chức workshop về Luật Khoa học, Công nghệ và phát triển doanh nghiệp công nghệ vào ngày 22/4",
+        "ngay_dang": "21/04/2026",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22556",
+        "link_anh": "http://due.udn.vn:443/bbimagehandler.ashx?File=/Portals/0/Users/125/73/27773/Workshop%20LuatKHTT2026.png&width=120&height=120"
+    },
+    {
+        "stt": 3,
+        "tieu_de": "Dự án ANVAGO của sinh viên DUE giành giải Ba tại SV_STARTUP",
+        "ngay_dang": "20/04/2026",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22553",
+        "link_anh": "http://due.udn.vn:443/bbimagehandler.ashx?File=/Portals/0/Users/125/73/27773/HuynhduongQuynhanh202601.png&width=120&height=120"
+    },
+    {
+        "stt": 4,
+        "tieu_de": "Cùng học sinh Trường THPT Sơn Trà (TP Đà Nẵng) chọn ngành, chọn trường",
+        "ngay_dang": "20/04/2026",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22552",
+        "link_anh": "http://due.udn.vn:443/bbimagehandler.ashx?File=/Portals/0/Users/099/95/16995/TVTSSonTra2026ava.jpg&width=120&height=120"
+    },
+    {
+        "stt": 5,
+        "tieu_de": "Tăng cường hợp tác với Văn phòng Kinh tế - Văn hóa Đài Bắc tại TP. Hồ Chí Minh",
+        "ngay_dang": "20/04/2026",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22555",
+        "link_anh": "http://due.udn.vn:443/bbimagehandler.ashx?File=/Portals/0/Users/125/73/27773/TiepdoanTAIPE202601.jpg&width=120&height=120"
+    },
+    {
+        "stt": 6,
+        "tieu_de": "Học sinh Trường THPT Chuyên Lê Quý Đôn (TP. Đà Nẵng) quan tâm chương trình Cử nhân tài năng Ngoại thương (DUE-Elite) của DUE",
+        "ngay_dang": "18/04/2026",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22547",
+        "link_anh": "http://due.udn.vn:443/bbimagehandler.ashx?File=/Portals/0/Users/125/73/27773/TVTSLQD202609.jpg&width=120&height=120"
+    },
+    {
+        "stt": 7,
+        "tieu_de": "Đảng ủy Trường Đại học Kinh tế tham gia Hội nghị nghiên cứu, học tập, quán triệt và triển khai thực hiện các văn bản mới của Trung ương, Thành ủy, Ban Thường vụ Thành ủy",
+        "ngay_dang": "18/04/2026",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22560",
+        "link_anh": "http://due.udn.vn:443/bbimagehandler.ashx?File=/Portals/0/Users/125/73/27773/HoinghiDU202601.jpg&width=120&height=120"
+    },
+    {
+        "stt": 8,
+        "tieu_de": "DUE OPEN DAY 2026: Nhiều hoạt động trải nghiệm giúp học sinh định hướng tương lai",
+        "ngay_dang": "18/04/2026",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22551",
+        "link_anh": "http://due.udn.vn:443/bbimagehandler.ashx?File=/Portals/0/Users/099/95/16995/DUEOPENDAY2026ava.jpg&width=120&height=120"
+    },
+    {
+        "stt": 9,
+        "tieu_de": "Sinh viên DUE tiếp cận cơ hội nghề nghiệp trong lĩnh vực logistics E-Logistics",
+        "ngay_dang": "18/04/2026",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22550",
+        "link_anh": "http://due.udn.vn:443/bbimagehandler.ashx?File=/Portals/0/Users/125/73/27773/ELogistics202601.jpg&width=120&height=120"
+    },
+    {
+        "stt": 10,
+        "tieu_de": "Từ tài nguyên bản địa đến tài sản trí tuệ: Bước tiến mới trong khởi nghiệp",
+        "ngay_dang": "17/04/2026",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22543",
+        "link_anh": "http://due.udn.vn:443/bbimagehandler.ashx?File=/Portals/0/Users/125/73/27773/StarupDay202601.jpg&width=120&height=120"
+    }
+]
+
+[
+    {
+        "stt": 1,
+        "tieu_de": "Workshop “Luật Khoa học...”",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22568",
+        "danh_sach_hinh_anh": [
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/WorkshopTaichinhso2026/HthaoLuatKHCN202601.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/WorkshopTaichinhso2026/HthaoLuatKHCN202603.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/WorkshopTaichinhso2026/HthaoLuatKHCN202604.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/WorkshopTaichinhso2026/HthaoLuatKHCN202605.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/WorkshopTaichinhso2026/HthaoLuatKHCN202607.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/WorkshopTaichinhso2026/HthaoLuatKHCN202608.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/WorkshopTaichinhso2026/HthaoLuatKHCN202609.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/WorkshopTaichinhso2026/HthaoLuatKHCN202610.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/WorkshopTaichinhso2026/HthaoLuatKHCN202606.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/WorkshopTaichinhso2026/HthaoLuatKHCN202602.jpg"
+        ],
+        "noi_dung_chi_tiet": "Ngày 22/4/2026, Trường Đại học Kinh tế - Đại học Đà Nẵng tổ chức workshop với chủ đề “Luật Khoa học, Công nghệ và đổi mới sáng tạo với việc phát triển mô hình doanh nghiệp khoa học công nghệ”, thu hút sự tham gia của đông đảo giảng viên, nhà khoa học và chuyên gia thực tiễn.\n\n\nGS. TS. Lê Văn Huy tặng hoa chúc mừng các diễn giả\n\nChương trình là diễn đàn học thuật - thực tiễn, để các giảng viên, nhà khoa học trao đổi các vấn đề liên quan đến thương mại hóa tài sản trí tuệ hình thành từ các nhiệm vụ khoa học và công nghệ. Đồng thời, workshop gợi mở các giải pháp thúc đẩy phát triển mô hình doanh nghiệp spin-off trong các cơ sở giáo dục đại học.\nGS. TS. Lê Văn Huy - Hiệu trưởng Nhà trường cho rằng, việc hoàn thiện khung pháp lý về khoa học, công nghệ và đổi mới sáng tạo sẽ tạo nền tảng thuận lợi để các trường đại học mạnh dạn triển khai các mô hình mới. Tuy nhiên, để hiện thực hóa tiềm năng này, cần có sự phối hợp chặt chẽ giữa nhà trường, cơ quan quản lý và doanh nghiệp trong việc tháo gỡ các rào cản về cơ chế, chính sách cũng như nguồn lực triển khai.\n\n\nGS. TS. Lê Văn Huy phát biểu khai mạc\n\nTại workshop, bốn tham luận chuyên sâu đã được trình bày, cung cấp góc nhìn đa chiều từ khía cạnh pháp lý, quản trị đến kinh nghiệm triển khai thực tế.\nMở đầu, Tham luận “Luật Khoa học, Công nghệ và Đổi mới sáng tạo và khung pháp lý về doanh nghiệp khoa học và công nghệ trong cơ sở giáo dục đại học” do TS. Nguyễn Hữu Phúc - TS. Trần Thị Sáu - Khoa Luật, Trường Đại học Kinh tế - ĐHĐN trình bày, đã phân tích hệ thống pháp luật hiện hành, qua đó làm rõ các điều kiện, cơ chế cần thiết để hình thành và vận hành doanh nghiệp khoa học công nghệ trong môi trường đại học.\n\n\nTS. Nguyễn Hữu Phúc trình bày tham luận trình bày tham luận về khung pháp lý doanh nghiệp khoa học và công nghệ\n\nTiếp đó, TS. Hứa Thùy Trang - Giám đốc Khối Quan hệ doanh nghiệp, BK Holdings (Đại học Bách khoa Hà Nội) chia sẻ tham luận “Thương mại hoá tài sản trí tuệ là kết quả của nhiệm vụ khoa học và công nghệ trong các cơ sở giáo dục đại học. Bài trình bày nhấn mạnh những rào cản hiện nay và đề xuất các hướng tiếp cận nhằm nâng cao hiệu quả khai thác giá trị tài sản trí tuệ trong các trường đại học.\n\n\nTS. Hứa Thùy Trang chia sẻ về thương mại hóa tài sản trí tuệ và mô hình doanh nghiệp spin-off\n\nỞ góc độ quản lý nhà nước, ThS. Lê Thị Thục - Phó Giám đốc Sở Khoa học và Công nghệ thành phố Đà Nẵng đã trình bày tham luận liên quan đến Hồ sơ, thủ tục thành lập doanh nghiệp khoa học và công nghệ trong cơ sở giáo dục đại học, đồng thời phân tích cơ chế đặc thù theo Nghị quyết 259/2025/QH15 gắn với phát triển công nghệ tại địa phương. \n\n\nBà Lê Thị Thục trình bày về thủ tục thành lập doanh nghiệp khoa học và công nghệ\n\nKhép lại chương trình, TS. Hứa Thùy Trang tiếp tục chia sẻ tham luận về “Mô hình doanh nghiệp spin-off tại Việt Nam và kinh nghiệm cho cơ sở giáo dục đại học tại Đà Nẵng”. \n\n\n\n\nCác đại biểu tham dự trao đổi, thảo luận tại workshop\n\nWorkshop không chỉ là không gian trao đổi học thuật mà còn là cầu nối giữa nhà khoa học, cơ quan quản lý và doanh nghiệp. Qua đó, chương trình góp phần thúc đẩy sự liên kết giữa nghiên cứu, sở hữu trí tuệ và thương mại hóa kết quả nghiên cứu, hướng tới hình thành hệ sinh thái đổi mới sáng tạo trong trường đại học, trong đó doanh nghiệp spin-off được xem là một xu hướng phát triển đáng chú ý. \n\n\nPhòng CTSV, QHDN & TT"
+    },
+    {
+        "stt": 2,
+        "tieu_de": "DUE sẽ tổ chức workshop...",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22556",
+        "danh_sach_hinh_anh": [
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/Workshop%20LuatKHTT2026.png"
+        ],
+        "noi_dung_chi_tiet": "Trường Đại học Kinh tế - Đại học Đà Nẵng sẽ tổ chức workshop “Luật Khoa học, Công nghệ và đổi mới sáng tạo với việc phát triển mô hình doanh nghiệp khoa học công nghệ” vào ngày 22/4/2026. \nWorkshop nhằm cập nhật các nội dung cốt lõi của Luật Khoa học, Công nghệ và đổi mới sáng tạo cùng khung pháp lý về doanh nghiệp khoa học và công nghệ trong cơ sở giáo dục đại học. Đây cũng là diễn đàn quan trọng để các chuyên gia và nhà nghiên cứu trao đổi kinh nghiệm về thương mại hóa tài sản trí tuệ và phát triển mô hình doanh nghiệp spin-off. \n\n\nSự kiện có sự tham gia của các diễn giả uy tín, bao gồm: TS. Hứa Thùy Trang - Giám đốc Khối Quan hệ doanh nghiệp, BK Holdings (Đại học Bách khoa Hà Nội) và TS. Trần Thị Sáu - TS. Nguyễn Hữu Phúc, Khoa Luật, Trường Đại học Kinh tế - ĐHĐN. \nNội dung worshop gồm hai chủ đề chính: \n- Chủ đề 1: Luật Khoa học, Công nghệ và Đổi mới sáng tạo và thương mại hóa tài sản trí tuệ.\n- Chủ đề 2: Tổ chức và hoạt động của doanh nghiệp khoa học - công nghệ trong hệ sinh thái đổi mới sáng tạo. \n\nTrường Đại học Kinh tế trân trọng kính mời giảng viên tham dự Workshop “Luật Khoa học, Công nghệ và đổi mới sáng tạo với việc phát triển mô hình doanh nghiệp khoa học công nghệ”:\nThời gian: 07h30, ngày 22/4/2026.\nĐịa điểm: Hội trường E, Trường Đại học Kinh tế, Đại học Đà Nẵng.\nPhòng CTSV, QHDN & TT"
+    },
+    {
+        "stt": 3,
+        "tieu_de": "Dự án ANVAGO...",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22553",
+        "danh_sach_hinh_anh": [
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/123WB/HuynhduongQuynhanh202601.png"
+        ],
+        "noi_dung_chi_tiet": "Dự án “ANVAGO - Nền tảng số hỗ trợ lập kế hoạch và điều hướng du lịch tại Đà Nẵng” của nhóm sinh viên DUE đã giành giải Ba tại Cuộc thi “Học sinh, sinh viên với ý tưởng khởi nghiệp” lần thứ VIII (SV_STARTUP) năm 2026.\nNhóm dự án do sinh viên Huỳnh Quỳnh Anh (Lớp 50K01.3, Khoa Kinh doanh quốc tế) làm trưởng nhóm, cùng sinh viên Nguyễn Quang Khiêm (Trường Đại học FPT Thành phố Hồ Chí Minh). Dự án được hướng dẫn từ TS. Bùi Huỳnh Nguyên (Trường Đại học Kinh tế - Đại học Đà Nẵng), phụ trách định hướng kinh tế và kế hoạch kinh doanh, và TS. Nguyễn Quang Như Quỳnh (Trường Đại học Bách Khoa - Đại học Đà Nẵng), phụ trách kỹ thuật và phát triển sản phẩm. \n\n\nANVAGO là nền tảng du lịch số hỗ trợ người dùng lập kế hoạch hành trình và điều hướng theo thời gian thực tại Đà Nẵng. Hệ thống tích hợp bản đồ số, gợi ý lịch trình và kết nối du khách với các dịch vụ địa phương như quán ăn và hộ kinh doanh nhỏ. Nhóm phát triển cho biết nền tảng tập trung vào việc tăng khả năng tiếp cận khách hàng cho các cơ sở địa phương mà không phụ thuộc vào quảng cáo trả phí.\nTheo mô tả dự án, ANVAGO sử dụng đánh giá từ trải nghiệm thực tế của du khách để xây dựng nguồn dữ liệu minh bạch. Nhóm kỳ vọng giải pháp có thể góp phần thúc đẩy du lịch bền vững và hỗ trợ kinh tế địa phương.\nChúc mừng nhóm dự án ANVAGO và sinh viên DUE đã đạt được thành tích đáng tự hào, đồng thời mong rằng sẽ có thêm nhiều ý tưởng sáng tạo tiếp tục được ươm mầm, phát triển từ môi trường học tập năng động của Nhà trường.\nPhòng CTSV, QHDN & TT"
+    },
+    {
+        "stt": 4,
+        "tieu_de": "Cùng học sinh Trường THPT Sơn Trà...",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22552",
+        "danh_sach_hinh_anh": [
+            "https://s.upanh.net/2026/04/20/TVTSSonTra202601.jpg",
+            "https://s.upanh.net/2026/04/20/TVTSSonTra202602.jpg",
+            "https://s.upanh.net/2026/04/20/TVTSSonTra202603.jpg",
+            "https://s.upanh.net/2026/04/20/TVTSSonTra202604.jpg",
+            "https://s.upanh.net/2026/04/20/TVTSSonTra202605.jpg"
+        ],
+        "noi_dung_chi_tiet": "Sáng ngày 20/4, trong buổi chào cờ đầu tuần tại Trường THPT Sơn Trà (TP. Đà Nẵng), Trường Đại học Kinh tế đã tổ chức hoạt động tư vấn hướng nghiệp, cung cấp thông tin tuyển sinh và định hướng lựa chọn ngành học cho học sinh của nhà trường. Chương trình nhận được sự quan tâm của đông đảo học sinh, đặc biệt là các bạn đang trong giai đoạn tìm hiểu thông tin để chuẩn bị cho kỳ tuyển sinh đại học năm 2026.\n\nTại chương trình, TS. Nguyễn Sơn Tùng – Phó Trưởng Phòng Đào tạo, Trường Đại học Kinh tế đã chia sẻ nhiều thông tin về phương thức tuyển sinh, các nhóm ngành đào tạo, cũng như những lưu ý quan trọng khi lựa chọn ngành học phù hợp với năng lực và sở thích cá nhân. Đồng thời, môi trường học tập năng động, chương trình đào tạo gắn với thực tiễn và cơ hội nghề nghiệp sau tốt nghiệp của sinh viên Trường Đại học Kinh tế cũng được giới thiệu đến học sinh một cách cụ thể, giúp các bạn có thêm cơ sở để định hướng tương lai.\n\n\nTS. Nguyễn Sơn Tùng dành nhiều lời khuyên bổ ích cũng như chiến thuật đăng ký nguyện vọng trong kỳ xét tuyển đại học sắp tới\nKhông khí buổi tư vấn diễn ra sôi nổi với nhiều câu hỏi xoay quanh tổ hợp xét tuyển, cách đăng ký nguyện vọng, cơ hội học bổng, chương trình đào tạo chất lượng cao và hoạt động sinh viên. Các nội dung trao đổi trực tiếp đã góp phần giúp học sinh hiểu rõ hơn về lộ trình học tập bậc đại học cũng như những cơ hội phát triển khi trở thành sinh viên Trường Đại học Kinh tế.\nNhân dịp này, Trường Đại học Kinh tế đã trao 05 suất học bổng dành cho 05 học sinh có thành tích xuất sắc trong Kỳ thi Olympic 30/4 và Kỳ thi Học sinh giỏi cấp thành phố năm học 2025 – 2026 của Trường THPT Sơn Trà. Đây là hoạt động nhằm ghi nhận, động viên tinh thần học tập của học sinh, đồng thời khuyến khích các em tiếp tục nỗ lực, phấn đấu trên hành trình chinh phục tri thức trong thời gian tới.\n \n05 suất học bổng được Trường Đại học Kinh tế trao tận tay cho học sinh THPT Sơn Trà\nHoạt động tư vấn hướng nghiệp tại Trường THPT Sơn Trà là một trong những chương trình đồng hành cùng học sinh THPT của Trường Đại học Kinh tế trong mùa tuyển sinh năm 2026. Qua đó, Nhà trường mong muốn hỗ trợ học sinh tiếp cận thông tin chính xác, định hướng nghề nghiệp rõ ràng và tự tin hơn trong hành trình lựa chọn ngành học, môi trường đại học phù hợp.\n\n \n\n\nTrường Đại học Kinh tế đồng hành cùng học sinh THPT Sơn Trà chọn ngành, chọn trường\n\nPhòng CTSV, QHDN & TT"
+    },
+    {
+        "stt": 5,
+        "tieu_de": "Tăng cường hợp tác với Văn phòng Kinh tế...",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22555",
+        "danh_sach_hinh_anh": [
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/TiepdoanTAIPE202601.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/TiepdoanTAIPE202604.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/TiepdoanTAIPE202605.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/TiepdoanTAIPE202602.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/TiepdoanTAIPE202603.jpg"
+        ],
+        "noi_dung_chi_tiet": "Ngày 20/4/2026, Trường Đại học Kinh tế - Đại học Đà Nẵng làm việc với Văn phòng Kinh tế - Văn hóa Đài Bắc tại TP. Hồ Chí Minh nhằm mở rộng hợp tác đào tạo, nghiên cứu và trao đổi học thuật. \nTham dự buổi làm việc, về phía Văn phòng có ông Lâm Vi Chí - Tham tán Giáo dục; bà Phan Nguyễn Thị Diễm My, Trưởng Văn phòng chương trình học bổng INTENSE. Tiếp đoàn làm việc có PGS.TS. Đoàn Ngọc Phi Anh - Phó Hiệu trưởng Nhà trường; TS. Bùi Huỳnh Nguyên - Phó Trưởng phòng Khoa học & Hợp tác quốc. \n\n\nTại buổi làm việc, PGS.TS. Đoàn Ngọc Phi Anh đã giới thiệu các hoạt động hợp tác với đối tác Đài Loan trong thời gian qua, nổi bật là chương trình Fast-track với Ming Chi University of Technology trong lĩnh vực Quản trị kinh doanh; đồng thời cho biết nhà trường đang triển khai hợp tác với Yuan Ze University về trí tuệ nhân tạo theo mô hình tương tự. Bên cạnh đó, nhiều hội thảo học thuật dự kiến được tổ chức vào mùa hè năm nay, mở rộng cơ hội trao đổi chuyên môn giữa các bên. Nhà trường cũng bày tỏ mong muốn tiếp nhận và chia sẻ thông tin các chương trình học bổng từ phía Đài Loan.\n\n\nPGS.TS. Đoàn Ngọc Phi Anh đã giới thiệu các hoạt động hợp tác \n\nÔng Lâm Vi Chí cho biết Văn phòng có thể hỗ trợ kết nối DUE với các trường đại học uy tín tại Đài Loan, tạo điều kiện mở rộng mạng lưới hợp tác. Đồng thời, phía Đài Loan tiếp tục triển khai chương trình học bổng dành cho giảng viên.\n\n\nÔng Lâm Vi Chí hi vọng sẽ kết nối DUE với các trường đại học uy tín tại Đài Loan\n\nHai bên cũng thống nhất sẽ tăng cường trao đổi thông tin về các đề tài nghiên cứu, kết nối giảng viên phù hợp với các nhóm nghiên cứu tại Đài Loan, qua đó nâng cao hiệu quả hợp tác thực chất. Văn phòng khuyến nghị DUE gửi danh sách ứng viên tiềm năng để được hỗ trợ tìm kiếm giảng viên hướng dẫn phù hợp.\nĐáng chú ý, hai bên đã thảo luận về khả năng tổ chức các kỳ thi đánh giá năng lực tiếng Hoa tại Đà Nẵng, cũng như thúc đẩy trao đổi giảng viên, sinh viên và hợp tác nghiên cứu thông qua sự giới thiệu từ Văn phòng. \n\n\nHai bên tặng quà chúc mừng sự hợp tác\n\n\nBuổi làm việc đã mở ra nhiều định hướng hợp tác cụ thể, góp phần tăng cường kết nối giữa DUE và các đối tác Đài Loan, hướng tới nâng cao chất lượng đào tạo, nghiên cứu và hội nhập quốc tế trong thời gian tới.\nPhòng CTSV, QHDN & TT"
+    },
+    {
+        "stt": 6,
+        "tieu_de": "Học sinh Trường THPT Chuyên Lê Quý Đôn...",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22547",
+        "danh_sach_hinh_anh": [
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/TVTSLQD202602.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/TVTSLQD202608.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/TVTSLQD202606.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/TVTSLQD202610.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/TVTSLQD202611.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/123WB/TVTSLQD202612.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/TVTSLQD202603.jpg"
+        ],
+        "noi_dung_chi_tiet": "Ngày 18/4/2026, Trường Đại học Kinh tế tham gia chương trình tư vấn tuyển sinh tại Trường THPT Chuyên Lê Quý Đôn, TP. Đà Nẵng, thu hút sự quan tâm của đông đảo học sinh và phụ huynh.\n\n\nTS. Trần Đình Khôi Quốc - Trưởng Ban Đào tạo và Đảm bảo chất lượng giáo dục Đại học Đà Nẵng giới thiệu thông tin tại chương trình\nTham gia chương trình, Trường Đại học Kinh tế - Đại học Đà Nẵng mang đến nhiều thông tin cập nhật về phương án tuyển sinh, đồng thời giới thiệu các ngành đào tạo, chương trình học và cơ hội nghề nghiệp trong bối cảnh thị trường lao động ngày càng cạnh tranh.\n\nĐội ngũ tư vấn tuyển sinh của Nhà trường đã trực tiếp giải đáp các thắc mắc xoay quanh phương thức xét tuyển, tổ hợp môn, học phí, học bổng cũng như cơ hội việc làm sau tốt nghiệp. Nội dung tư vấn được thiết kế theo hướng cá nhân hóa, giúp học sinh hiểu rõ hơn về năng lực bản thân để lựa chọn ngành học phù hợp.\n\n\nTS. Nguyễn Sơn Tùng - Phó trưởng Phòng Đào tạo tư vấn cho học sinh về chương trình Cử nhân tài năng Ngoại thương (DUE-Elite)\nĐặc biệt, các bạn học sinh Trường THPT Chuyên Lê Quý Đôn quan tâm chương trình Cử nhân tài năng Ngoại thương (DUE-Elite). Đây là chương trình được thiết kế dành cho những thí sinh có thành tích học tập xuất sắc và năng lực ngoại ngữ nổi bật, nhằm bồi dưỡng và phát triển các chuyên gia, nhà quản lý và nhà nghiên cứu trong lĩnh vực kinh doanh quốc tế. Chương trình được giảng dạy hoàn toàn bằng tiếng Anh với quy mô lớp học tinh gọn, tích hợp các học phần nâng cao (Elite Modules), dự án nghiên cứu và trải nghiệm học tập quốc tế. Chương trình DUE-Elite nhằm xây dựng môi trường học thuật chất lượng cao, gắn kết với doanh nghiệp và đối tác quốc tế, đồng thời mở ra lộ trình học tập tích hợp cử nhân - thạc sĩ, tạo cơ hội để sinh viên nhận bằng cử nhân của DUE và bằng thạc sĩ của các trường đại học đối tác quốc tế uy tín. Sinh viên hoàn thành chương trình đào tạo và đáp ứng đầy đủ các điều kiện theo quy định sẽ được xét công nhận tốt nghiệp, cấp bằng Cử nhân hình thức đào tạo chính quy, ngành Kinh doanh quốc tế của Trường Đại học Kinh tế - Đại học Đà Nẵng; phụ lục văn bằng ghi rõ Chương trình Cử nhân tài năng Ngoại thương DUE-Elite.\n\n\n\n\nBên cạnh đó, các chương trình đào tạo bằng tiếng Anh, liên kết quốc tế và cơ hội trao đổi sinh viên cũng được giới thiệu nhằm mở rộng định hướng học tập toàn cầu cho học sinh.\nTrường Đại học Kinh tế tiếp tục khẳng định vai trò đồng hành cùng học sinh trong hành trình lựa chọn nghề nghiệp, góp phần nâng cao chất lượng nguồn nhân lực và đáp ứng yêu cầu phát triển kinh tế - xã hội của khu vực miền Trung - Tây Nguyên.\n\n\nPhòng CTSV, QHDN & TT"
+    },
+    {
+        "stt": 7,
+        "tieu_de": "Đảng ủy Trường Đại học Kinh tế...",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22560",
+        "danh_sach_hinh_anh": [
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/HoinghiDU202601.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/HoinghiDU202602.jpg"
+        ],
+        "noi_dung_chi_tiet": "Ngày 18/4/2026, Đảng ủy Trường Đại học Kinh tế tham gia Hội nghị nghiên cứu, học tập, quán triệt và triển khai thực hiện các văn bản mới của Trung ương, Thành ủy, Ban Thường vụ Thành ủy. Hội nghị được tổ chức theo hình thức trực tiếp kết hợp trực tuyến, kết nối đến nhiều điểm cầu trên toàn thành phố.\nTại điểm cầu Trường Đại học Kinh tế, hội nghị có sự tham dự của đ/c Võ Thị Thúy Anh - Bí thư Đảng ủy Trường Đại học Kinh tế cùng với các đồng chí trong Ban chấp hành đảng bộ, Ban Giám hiệu; Chủ tịch Công đoàn, Bí thư Đoàn Thanh niên, Chủ tịch Hội Cựu chiến binh, Chủ tịch Hội Sinh viên; Bí thư, Phó Bí thư, Chi ủy viên các Chi bộ; Trưởng, Phó Khoa/Phòng, Giám đốc, Phó Giám đốc Trung tâm là đảng viên của Đảng bộ Nhà trường. \n\n\nTại Hội nghị, các đại biểu đã được nghe quán triệt nhiều nội dung quan trọng, bao gồm các chương trình hành động và nghị quyết mới liên quan đến phát triển kinh tế - xã hội, bảo đảm quốc phòng - an ninh, xây dựng Đảng và hệ thống chính trị trong tình hình mới. Cụ thể, các chuyên đề như: Chương trình hành động số 51-CTr/TU ngày 10/3/2026 của Thành ủy về thực hiện Nghị quyết Đại hội đại biểu toàn quốc lần thứ XIV của Đảng và Nghị quyết Đại hội đại biểu lần thứ I Đảng bộ thành phố; Nghị quyết số 12-NQ/TU ngày 06/4/2026 của Thành ủy về tăng cường công tác quản lý, bảo vệ và phát triển rừng trên địa bàn thành phố Đà Nẵng giai đoạn 2026-2030, định hướng đến năm 2035; Chương trình hành động số 62-CTr/TU ngày 06/4/2026 của Thành ủy về phát triển kinh tế - xã hội, đảm bảo quốc phòng, an ninh vùng đồng bào dân tộc thiểu số, miền núi, biên giới, hải đảo giai đoạn 2026 - 2030 trên địa bàn thành phố Đà Nẵng; Chương trình hành động số 54-CTr/TU ngày 12/3/2026 của Ban Thường vụ Thành ủy về thực hiện Nghị quyết số 80-NQ/TW ngày 07/01/2026 của Bộ Chính trị về phát triển văn hóa Việt Nam; Nghị quyết số 13-NQ/TU ngày 09/4/2026 của Thành ủy về tiếp tục phát huy truyền thống, sức mạnh đại đoàn kết toàn dân tộc, bảo đảm quyền làm chủ của Nhân dân trên địa bàn thành phố; Đề án số 02-ĐA/TU ngày 10/4/2026 của Ban Thường vụ Thành ủy về xây dựng và nhân rộng các mô hình “Dân vận khéo” tiêu biểu trên địa bàn thành phố Đà Nẵng giai đoạn 2026-2030; Nghị quyết số 09-NQ/TU ngày 09/01/2026 của Ban Thường vụ Thành ủy về tăng cường sự lãnh đạo của Đảng đối với công tác phòng, chống tham nhũng, lãng phí, tiêu cực trên địa bàn thành phố; Chỉ thị số 57-CT/TW ngày 31/12/2025 của Ban Bí thư về tăng cường bảo đảm an ninh mạng, bảo mật thông tin, an ninh dữ liệu trong hệ thống chính trị và Chỉ thị số 13-CT/TU ngày 31/12/2025 của Ban Thường vụ Thành ủy về tăng cường sự lãnh đạo của Đảng đối với công tác bảo đảm an ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao trên địa bàn thành phố trong tình hình mới. \n\n\nThông qua hội nghị, các đại biểu tham dự của Đảng bộ Nhà trường đã được cập nhật kịp thời các chủ trương, định hướng lớn của Trung ương và thành phố, từ đó nâng cao nhận thức, thống nhất hành động trong quá trình triển khai thực hiện nhiệm vụ chính trị tại đơn vị. Đây cũng là cơ sở quan trọng để Đảng ủy Trường Đại học Kinh tế cụ thể hóa các nội dung vào công tác đào tạo, nghiên cứu khoa học và phục vụ cộng đồng, góp phần thực hiện hiệu quả các mục tiêu phát triển chung của Nhà trường trong giai đoạn mới.\nPhòng CTSV, QHDN & TT"
+    },
+    {
+        "stt": 8,
+        "tieu_de": "DUE OPEN DAY 2026...",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22551",
+        "danh_sach_hinh_anh": [
+            "https://s.upanh.net/2026/04/20/DUEOPENDAY202602.jpg",
+            "https://s.upanh.net/2026/04/20/DUEOPENDAY202604.png",
+            "https://s.upanh.net/2026/04/20/DUEOPENDAY202601.jpg",
+            "https://s.upanh.net/2026/04/20/DUEOPENDAY202605.jpg",
+            "https://s.upanh.net/2026/04/20/DUEOPENDAY202610.jpg",
+            "https://s.upanh.net/2026/04/20/DUEOPENDAY202611.jpg",
+            "https://s.upanh.net/2026/04/20/DUEOPENDAY202603.jpg",
+            "https://s.upanh.net/2026/04/20/DUEOPENDAY202607.jpg",
+            "https://s.upanh.net/2026/04/20/DUEOPENDAY202608.jpg",
+            "https://s.upanh.net/2026/04/20/DUEOPENDAY202609.jpg",
+            "https://s.upanh.net/2026/04/20/DUEOPENDAY202606.jpg"
+        ],
+        "noi_dung_chi_tiet": "Ngày 17/4/2026, chương trình DUE OPEN DAY 2026 đã diễn ra sôi nổi tại Trường Đại học Kinh tế, thu hút gần 300 học sinh THPT tham gia tham quan, trải nghiệm và tìm hiểu môi trường học tập năng động, hiện đại của Nhà trường. Hoạt động nhằm giúp học sinh có thêm thông tin về ngành học, định hướng nghề nghiệp, đồng thời tạo cơ hội tiếp cận trực tiếp với không gian học tập và sinh hoạt của sinh viên Trường.\n\n\n\n\nHọc sinh THPT check in tại chương trình\n\nPhát biểu chào mừng tại chương trình, Đoàn Ngọc Phi Anh - Phó Hiệu trưởng Nhà trường nhấn mạnh: “DUE OPEN DAY là dịp để các em học sinh THPT trực tiếp trải nghiệm môi trường học tập đại học, tìm hiểu ngành nghề và định hướng tương lai. Nhà trường luôn chú trọng xây dựng chương trình đào tạo gắn với thực tiễn, môi trường học tập hiện đại, năng động nhằm tạo điều kiện tốt nhất để người học phát triển toàn diện. Hy vọng thông qua hoạt động hôm nay, các em sẽ có thêm thông tin hữu ích để lựa chọn ngành học phù hợp và hẹn gặp lại các em trong vai trò tân sinh viên của Trường Đại học Kinh tế trong thời gian tới.”\n\n\nPGS. TS. Đoàn Ngọc Phi Anh gửi lời chúc đến toàn thể học sinh THPT trong kỳ thi tốt nghiệp THPT sắp tới\n\nTrong khuôn khổ chương trình, học sinh được tham gia chuỗi hoạt động trải nghiệm DUE Masterclass với các lớp học mô phỏng môi trường đại học, tham quan các không gian giới thiệu ngành đào tạo, giao lưu cùng giảng viên và sinh viên, đồng thời tham gia các hoạt động tương tác, minigame sôi động. Các khu vực trải nghiệm diễn ra trong không khí hào hứng, với nhiều câu hỏi về ngành học, cơ hội nghề nghiệp và định hướng tương lai được trao đổi trực tiếp, giúp học sinh có cái nhìn rõ ràng hơn trước khi lựa chọn ngành, chọn trường.\n \n\n\n\nTrải nghiệm lớp học thực tế\n\n\n\n\nGiao lưu cùng các khoa\n\nBên cạnh đó, các hoạt động team building, check-in tại các khu vực trải nghiệm và tham quan khuôn viên trường đã mang đến nhiều khoảnh khắc đáng nhớ cho học sinh tham dự. Nhiều học sinh lần đầu đến với Trường Đại học Kinh tế bày tỏ sự ấn tượng trước không gian học tập hiện đại, môi trường sinh viên năng động và sự hỗ trợ nhiệt tình từ đội ngũ tình nguyện viên.\n\n\n\nTham gia teambuiliding gắn kết sinh viên và học sinh\nDUE OPEN DAY 2026 khép lại với nhiều trải nghiệm tích cực, góp phần tăng cường kết nối giữa Trường Đại học Kinh tế – Đại học Đà Nẵng với học sinh THPT, đồng thời hỗ trợ các em trong quá trình định hướng nghề nghiệp và lựa chọn môi trường học tập phù hợp trong thời gian tới.\n \n \n \n     \n    \nDUE OPEN DAY 2026 khép lại với nhiều trải nghiệm đáng nhớ\nPhòng CTSV, QHDN & TT"
+    },
+    {
+        "stt": 9,
+        "tieu_de": "Sinh viên DUE tiếp cận cơ hội nghề nghiệp...",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22550",
+        "danh_sach_hinh_anh": [
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/20260119TiepdoanWB/ELogistics202601.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/123WB/ELogistics202603.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/123WB/ELogistics202605.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/123WB/ELogistics202602.jpg"
+        ],
+        "noi_dung_chi_tiet": "Ngày 18/4/2026, Chương trình Career Talk: \"SPX Future Leaders Program 2026\" của SPX Express được tổ chức tại Trường Đại học Kinh tế với sự tham gia của đông đảo sinh viên. Chương trình nhằm tăng cường kết nối giữa nhà tuyển dụng và nguồn nhân lực trẻ trong bối cảnh thị trường lao động cạnh tranh gia tăng và thương mại điện tử tiếp tục mở rộng. \n\n\nSự kiện nhằm kết nối doanh nghiệp với nguồn nhân lực trẻ, đồng thời cung cấp thông tin về xu hướng công nghệ trong vận hành logistics. Tại chương trình, bà Vân Đoàn, Quản lý vận hành khu vực miền Trung và Tây Nguyên, đã trình bày về sự phát triển của E-Logistics tại Việt Nam, nhấn mạnh vai trò của công nghệ trong tối ưu hóa chuỗi cung ứng và nâng cao trải nghiệm khách hàng. Theo bà, việc ứng dụng dữ liệu và tự động hóa đang trở thành yếu tố then chốt giúp doanh nghiệp logistics duy trì năng lực cạnh tranh.\n\n\nĐại diện doanh nghiệp trình bày về xu hướng E-Logistics và thông tin tuyển dụng\nBà Trang Trần, phụ trách phát triển nguồn nhân lực, giới thiệu chi tiết về “SPX Future Leaders Program 2026”, bao gồm lộ trình đào tạo, yêu cầu tuyển dụng và các kỹ năng cần thiết cho sinh viên. Chương trình hướng đến việc phát triển đội ngũ lãnh đạo trẻ thông qua đào tạo thực tiễn và luân chuyển giữa các bộ phận chức năng.\n\n\nPhần hỏi đáp trực tiếp giữa sinh viên và đại diện doanh nghiệp ghi nhận nhiều câu hỏi liên quan đến môi trường làm việc, cơ hội thăng tiến và tiêu chí tuyển chọn. Chương trình giúp sinh viên có cái nhìn thực tế hơn về ngành nghề trước khi gia nhập thị trường lao động.\n\n\nPhòng CTSV, QHDN & TT"
+    },
+    {
+        "stt": 10,
+        "tieu_de": "Từ tài nguyên bản địa đến tài sản trí tuệ...",
+        "lien_ket": "https://due.udn.vn/vi-vn/tintuc/tintucchitiet/id/22543",
+        "danh_sach_hinh_anh": [
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/123WB/StarupDay202601.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/123WB/StarupDay202602.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/123WB/StarupDay202603.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/123WB/StarupDay202604.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/123WB/StarupDay202606.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/123WB/StarupDay202605.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/123WB/StarupDay202607.jpg",
+            "https://due.udn.vn/Portals/0/Editor/2026_01_Phuong/123WB/StarupDay202608.jpg"
+        ],
+        "noi_dung_chi_tiet": "Tài nguyên bản địa không chỉ là cơ hội cho sự phát triển kinh tế mà còn là nền tảng cho việc xây dựng tài sản trí tuệ, một công cụ thiết yếu để bảo vệ và phát triển những cơ hội này một cách bền vững. Đây là thông điệp chính được nhấn mạnh tại workshop “Từ tài nguyên bản địa đến tài sản trí tuệ” diễn ra trong khuôn khổ DUE Startup Day 2026 vào ngày 17/4/2026.\n\n\nTại chương trình, chuyên gia Phạm Ngọc Sinh - Phó chủ tịch Hội đồng Tư vấn Khởi  nghiệp Quốc gia, Chủ tịch Hội đồng tư vấn khởi nghiệp Trường Đại học Kinh tế - ĐHĐN đã chia sẻ nhiều quan điểm thực tiễn về giá trị của tài nguyên bản địa trong việc khởi nghiệp và phát triển sản phẩm. Ông nhấn mạnh rằng, không chỉ là câu chuyện của từng địa phương, mà các sản vật, tri thức dân gian, nghề truyền thống và giá trị văn hóa bản địa, nếu được khai thác đúng cách, có thể trở thành lợi thế cạnh tranh và mở ra cơ hội phát triển ở tầm quốc gia.\n\n\nChuyên gia Phạm Ngọc Sinh nhấn mạnh vai trò của tài nguyên bản địa trong khởi nghiệp và phát triển sản phẩm\n\nTừ góc độ pháp lý và bảo vệ sáng tạo, ThS. Nguyễn Thị Thúy, đại diện Cục Sở hữu trí tuệ tại TP. Đà Nẵng, đã giúp sinh viên hiểu rõ hơn về vai trò của tài sản trí tuệ trong quá trình khởi nghiệp. Các công cụ như nhãn hiệu, kiểu dáng công nghiệp, bí mật kinh doanh, bằng sáng chế và quyền tác giả đều có vai trò quan trọng trong việc xác lập quyền sở hữu, bảo vệ thành quả sáng tạo và nâng cao giá trị sản phẩm trên thị trường. \n\n\nThS. Nguyễn Thị Thúy giới thiệu về các công cụ bảo vệ tài sản trí tuệ cho các nhà khởi nghiệp trẻ\n\nWorkshop cũng đề cập đến một vấn đề thực tế: để phát triển bền vững, các nhà khởi nghiệp không chỉ cần có ý tưởng tốt mà còn phải biết cách bảo vệ ý tưởng của mình, tránh bị sao chép hoặc đánh mất lợi thế cạnh tranh ngay từ giai đoạn đầu. Trong bối cảnh nhiều sản phẩm Việt Nam có giá trị nhưng chưa được bảo hộ đầy đủ, việc hiểu và sử dụng đúng các công cụ sở hữu trí tuệ càng trở nên cần thiết.\n\n\n\n\nSinh viên tham gia tích cực vào workshop, lắng nghe những quan điểm thực tiễn về giá trị của tài sản trí tuệ trong khởi nghiệp\nThông qua chương trình, sinh viên không chỉ được trang bị thêm kiến thức về khởi nghiệp và đổi mới sáng tạo, mà còn nhận thức được rằng việc khai thác giá trị bản địa phải đi đôi với bảo hộ tài sản trí tuệ, để đảm bảo rằng ý tưởng không chỉ hay mà còn có khả năng phát triển lâu dài.\n\nTặng hoa cảm ơn diễn giả\n\n\nPhòng CTSV, QHDN & TT"
+    }
+]

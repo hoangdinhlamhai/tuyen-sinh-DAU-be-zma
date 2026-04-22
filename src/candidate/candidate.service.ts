@@ -102,6 +102,9 @@ export class CandidateService {
   async getById(id: string) {
     const candidate = await this.prisma.candidate.findUnique({
       where: { id },
+      include: {
+        registrations: true,
+      },
     });
 
     if (!candidate) {
