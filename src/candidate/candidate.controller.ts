@@ -76,7 +76,14 @@ export class CandidateController {
 
   @Post('from-tarot')
   createFromTarot(
-    @Body() body: { fullName: string; email?: string; provinceCode?: string; highSchoolCode?: string },
+    @Body() body: {
+      fullName: string;
+      email?: string;
+      provinceCode?: string;
+      highSchoolCode?: string;
+      provinceName?: string;
+      schoolName?: string;
+    },
   ) {
     return this.candidateService.createFromTarot(body);
   }

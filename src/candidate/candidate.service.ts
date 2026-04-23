@@ -176,14 +176,20 @@ export class CandidateService {
   /**
    * Tạo candidate tối thiểu từ popup Tarot (guest, chưa liên kết Zalo)
    */
-  async createFromTarot(data: { fullName: string; email?: string; provinceCode?: string; highSchoolCode?: string }) {
+  async createFromTarot(data: {
+    fullName: string;
+    email?: string;
+    provinceCode?: string;
+    highSchoolCode?: string;
+    provinceName?: string;
+    schoolName?: string;
+  }) {
     // Nếu có email, kiểm tra đã tồn tại chưa
     if (data.email) {
       const existing = await this.prisma.candidate.findUnique({
         where: { email: data.email },
       });
       if (existing) {
-        // Cập nhật tên nếu chưa có
         if (!existing.fullName || existing.fullName === 'Zalo User') {
           await this.prisma.candidate.update({
             where: { id: existing.id },
@@ -197,14 +203,27 @@ export class CandidateService {
     const id = `DAU${new Date().getFullYear()}${randomUUID().slice(0, 6).toUpperCase()}`;
     const placeholderEmail = data.email || `tarot_${id}@placeholder.local`;
 
+    // Validate provinceCode exists in provinces table (FK constraint)
+    let validProvinceCode: string | null = null;
+    if (data.provinceCode) {
+      const province = await this.prisma.province.findUnique({
+        where: { id: data.provinceCode },
+      });
+      if (province) {
+        validProvinceCode = data.provinceCode;
+      }
+    }
+
     const candidate = await this.prisma.candidate.create({
       data: {
         id,
         email: placeholderEmail,
         fullName: data.fullName,
         dob: new Date('2000-01-01'),
-        provinceCode: data.provinceCode || null,
+        provinceCode: validProvinceCode,
+        province: data.provinceName || null,
         highSchoolCode: data.highSchoolCode || null,
+        highSchool: data.schoolName || null,
         profileStatus: 'tarot_lead',
       },
     });
