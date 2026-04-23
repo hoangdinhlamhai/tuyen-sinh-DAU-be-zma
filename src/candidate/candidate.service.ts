@@ -18,6 +18,16 @@ export class CandidateService {
     });
 
     if (candidate && candidate.id !== loggedInCandidateId) {
+      // If candidate only exists from tarot flow (not a real registration),
+      // allow them to proceed with scholarship registration using this email
+      if (candidate.profileStatus === 'tarot_lead') {
+        return {
+          found: false,
+          existingCandidateId: candidate.id,
+          message: 'Email chưa được đăng ký chính thức',
+        };
+      }
+
       return {
         found: true,
         candidateId: candidate.id,
@@ -37,6 +47,31 @@ export class CandidateService {
     });
 
     if (existingEmail && existingEmail.id !== loggedInCandidateId) {
+      // If existing candidate is just a tarot_lead, upgrade it to a real registration
+      if (existingEmail.profileStatus === 'tarot_lead') {
+        await this.prisma.candidate.update({
+          where: { id: existingEmail.id },
+          data: {
+            fullName: dto.fullName,
+            dob: new Date(dto.dob),
+            gender: dto.gender,
+            idCard: dto.idCard,
+            phone: dto.phone,
+            provinceCode: dto.contactProvinceCode,
+            ward: dto.contactWard,
+            address: dto.contactStreet,
+            highSchoolCode: dto.highSchoolCode,
+            profileStatus: 'pending',
+          },
+        });
+
+        return {
+          success: true,
+          candidateId: existingEmail.id,
+          message: 'Đăng ký thành công (nâng cấp từ Tarot)',
+        };
+      }
+
       throw new BadRequestException('Email đã được đăng ký cho tài khoản khác');
     }
 
