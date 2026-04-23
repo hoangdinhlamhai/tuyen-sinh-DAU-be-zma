@@ -62,8 +62,9 @@ export class TarotController {
   getHistory(
     @Query('zaloUserId') zaloUserId?: string,
     @Query('candidateId') candidateId?: string,
+    @Query('playerName') playerName?: string,
   ) {
-    return this.tarotService.getHistory(zaloUserId, candidateId);
+    return this.tarotService.getHistory(zaloUserId, candidateId, playerName);
   }
 
   @Patch('session/:sessionId')

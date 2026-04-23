@@ -193,10 +193,13 @@ export class TarotService {
   /**
    * Lịch sử bốc bài theo Zalo User ID
    */
-  async getHistory(zaloUserId?: string, candidateId?: string) {
+  async getHistory(zaloUserId?: string, candidateId?: string, playerName?: string) {
     const conditions: any[] = [];
     if (zaloUserId) conditions.push({ zaloUserId });
-    if (candidateId) conditions.push({ candidateId });
+    if (candidateId && !candidateId.startsWith('guest-') && !candidateId.startsWith('local-')) {
+      conditions.push({ candidateId });
+    }
+    if (playerName) conditions.push({ playerName });
 
     // For guest users without any identifier, return empty
     if (conditions.length === 0) return [];
