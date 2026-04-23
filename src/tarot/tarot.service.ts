@@ -198,13 +198,14 @@ export class TarotService {
     if (zaloUserId) conditions.push({ zaloUserId });
     if (candidateId) conditions.push({ candidateId });
 
+    // For guest users without any identifier, return empty
     if (conditions.length === 0) return [];
 
     return this.prisma.tarotSession.findMany({
       where: { OR: conditions },
       include: { card: true },
       orderBy: { createdAt: 'desc' },
-      take: 10,
+      take: 1, // Always return the latest draw only
     });
   }
 
