@@ -1,5 +1,4 @@
-import { Controller, Post, Body, UseGuards } from '@nestjs/common';
-import { AuthGuard } from '@nestjs/passport';
+import { Controller, Post, Body } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { ZaloLoginDto } from './dto/zalo-login.dto';
 
@@ -12,7 +11,6 @@ export class AuthController {
     return this.authService.loginWithZalo(dto.authCode, dto.profile);
   }
 
-  @UseGuards(AuthGuard('jwt'))
   @Post('logout')
   logout() {
     return this.authService.logout();
