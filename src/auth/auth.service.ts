@@ -23,7 +23,7 @@ export class AuthService {
     });
 
     if (!candidate) {
-      const id = `DAU${new Date().getFullYear()}${randomUUID().slice(0, 6).toUpperCase()}`;
+      const id = `DUE${new Date().getFullYear()}${randomUUID().slice(0, 6).toUpperCase()}`;
       candidate = await this.prisma.candidate.create({
         data: {
           id,

@@ -1,26 +1,22 @@
 -- ==============================================================================
--- SEED DATA: Zalo Mini App Tuyển sinh ĐH Kiến trúc Đà Nẵng (DAU)
+-- SEED DATA: Zalo Mini App Tuyển sinh ĐH Kinh tế Đà Nẵng (DUE)
 -- Được gen tự động từ các file JSON API thực tế (Đã làm sạch data)
 -- ==============================================================================
 
 -- Bảng: majors
 INSERT INTO majors (id, name, min_score, is_active, scholarship_group_id, created_at) VALUES
-('7210403', 'Thiết kế đồ họa', NULL, 1, 'GROUP_A', '2026-03-04T09:17:24.000Z'),
-('7220201', 'Ngôn ngữ Anh', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z'),
-('7220204', 'Ngôn ngữ Trung Quốc', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z'),
-('7340101', 'Quản trị kinh doanh', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z'),
-('7340201', 'Tài chính - Ngân hàng', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z'),
-('7340301', 'Kế toán', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z'),
-('7480201', 'Công nghệ thông tin', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z'),
-('7510301', 'Công nghệ kỹ thuật điện, điện tử', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z'),
+('7310101', 'Kinh tế', NULL, 1, 'GROUP_A', '2026-03-04T09:17:24.000Z'),
+('7310106', 'Kinh tế quốc tế', NULL, 1, 'GROUP_A', '2026-03-04T09:17:24.000Z'),
+('7340201', 'Tài chính - Ngân hàng', NULL, 1, 'GROUP_A', '2026-03-04T09:17:24.000Z'),
+('7340301', 'Kế toán', NULL, 1, 'GROUP_A', '2026-03-04T09:17:24.000Z'),
+('7340101', 'Quản trị kinh doanh', NULL, 1, 'GROUP_A', '2026-03-04T09:17:24.000Z'),
+('7340120', 'Kinh doanh quốc tế', NULL, 1, 'GROUP_A', '2026-03-04T09:17:24.000Z'),
+('7340115', 'Marketing', NULL, 1, 'GROUP_A', '2026-03-04T09:17:24.000Z'),
+('7340122', 'Thương mại điện tử', NULL, 1, 'GROUP_A', '2026-03-04T09:17:24.000Z'),
 ('7510605', 'Logistics và quản lý chuỗi cung ứng', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z'),
-('7580101', 'Kiến trúc', NULL, 1, 'GROUP_A', '2026-03-04T09:17:24.000Z'),
-('7580108', 'Thiết kế nội thất', NULL, 1, 'GROUP_A', '2026-03-04T09:17:24.000Z'),
-('7580201', 'Kỹ thuật xây dựng', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z'),
-('7580205', 'Kỹ thuật xây dựng công trình giao thông', NULL, 1, 'GROUP_C', '2026-03-04T09:17:24.000Z'),
-('7580302', 'Quản lý xây dựng', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z'),
-('7810103', 'Quản trị dịch vụ du lịch và lữ hành', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z'),
-('7810201', 'Quản trị khách sạn', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z')
+('7340405', 'Hệ thống thông tin quản lý', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z'),
+('7380107', 'Luật kinh tế', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z'),
+('7810103', 'Quản trị dịch vụ du lịch và lữ hành', NULL, 1, 'GROUP_B', '2026-03-04T09:17:24.000Z')
 ON CONFLICT (id) DO NOTHING;
 
 -- Bảng: provinces

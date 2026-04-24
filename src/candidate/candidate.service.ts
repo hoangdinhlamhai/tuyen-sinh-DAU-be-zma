@@ -108,7 +108,7 @@ export class CandidateService {
     }
 
     // Nếu không login thì tạo mới hoàn toàn
-    const id = `DAU${new Date().getFullYear()}${randomUUID().slice(0, 6).toUpperCase()}`;
+    const id = `DUE${new Date().getFullYear()}${randomUUID().slice(0, 6).toUpperCase()}`;
 
     const candidate = await this.prisma.candidate.create({
       data: {
@@ -209,7 +209,7 @@ export class CandidateService {
     let updated: Awaited<ReturnType<typeof this.prisma.candidate.update>>;
 
     if (!existing) {
-      const id = `DAU${new Date().getFullYear()}${randomUUID().slice(0, 6).toUpperCase()}`;
+      const id = `DUE${new Date().getFullYear()}${randomUUID().slice(0, 6).toUpperCase()}`;
       updated = await this.prisma.candidate.create({
         data: {
           id,
@@ -262,7 +262,7 @@ export class CandidateService {
       }
     }
 
-    const id = `DAU${new Date().getFullYear()}${randomUUID().slice(0, 6).toUpperCase()}`;
+    const id = `DUE${new Date().getFullYear()}${randomUUID().slice(0, 6).toUpperCase()}`;
     const placeholderEmail = data.email || `tarot_${id}@placeholder.local`;
 
     // Validate provinceCode exists in provinces table (FK constraint)
